@@ -30,11 +30,11 @@ defmodule Absinthe.Plug.GraphiQL.Assets do
       {"dist/fonts/glyphicons-halflings-regular.svg", "fonts/glyphicons-halflings-regular.svg"},
       {"dist/css/bootstrap.min.css", "css/bootstrap.css"},
     ]},
-    {"graphiql", "0.11.10", [
+    {"graphiql", "0.11.11", [
       "graphiql.css",
       {"graphiql.min.js", "graphiql.js"},
     ]},
-    {"graphiql-workspace", "1.1.4", [
+    {"@mmrobins/graphiql-workspace", "1.1.5", [
       "graphiql-workspace.css",
       {"graphiql-workspace.min.js", "graphiql-workspace.js"}
     ]},
